@@ -80,7 +80,7 @@ function EditProduct({ products, updateProduct }) {
         Edit Product
       </Typography>
       <Grid container spacing={2} alignItems="flex-start">
-      <Grid item xs={12} md={6} sx={{ maxWidth: '40%', height: '600px', overflowY: 'scroll', boxShadow: 2, p: 2 }}>
+      <Grid item xs={12} md={6} sx={{ maxWidth: '40%', height: '500px', overflowY: 'scroll', boxShadow: 2, p: 2 }}>
             <Typography variant="h5" gutterBottom>
                 <strong>Lets add your first product</strong>
             </Typography>
