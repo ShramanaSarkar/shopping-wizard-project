@@ -5,6 +5,7 @@ import ProductTypePage from './pages/ProductTypePage';
 import AddProduct from './pages/AddProduct';
 import DashboardPage from './pages/DashboardPage';
 import EditProduct from './pages/EditProduct';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [theme, setTheme] = useState(null);
