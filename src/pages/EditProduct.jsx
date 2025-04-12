@@ -22,13 +22,14 @@ function EditProduct({ products, updateProduct }) {
   const [productType, setProductType] = useState('');
   const [category, setCategory] = useState('');
   const [subcategory, setSubcategory] = useState('');
+  const [theme, setTheme] = useState('');
 
   useEffect(() => {
-    console.log(product);
     if (product) {
       setProductType(product.productType);
       setCategory(product.category);
       setSubcategory(product.subcategory);
+      setTheme(product.theme);
       setProductName(product.productName);
       setProductDescription(product.productDescription);
       setImage(product.image);
@@ -66,6 +67,7 @@ function EditProduct({ products, updateProduct }) {
       productType,
       category,
       subcategory,
+      theme
     });
     navigate('/dashboard');
   };
@@ -80,7 +82,7 @@ function EditProduct({ products, updateProduct }) {
         Edit Product
       </Typography>
       <Grid container spacing={2} alignItems="flex-start">
-      <Grid item xs={12} md={6} sx={{ maxWidth: '40%', height: '500px', overflowY: 'scroll', boxShadow: 2, p: 2 }}>
+      <Grid item xs={12} md={6} sx={{ maxWidth: '40%', height: '600px', overflowY: 'scroll', boxShadow: 2, p: 2 }}>
             <Typography variant="h5" gutterBottom>
                 <strong>Lets add your first product</strong>
             </Typography>

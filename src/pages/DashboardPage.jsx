@@ -36,7 +36,7 @@ function DashboardPage({ products, theme }) {
                     >
                       {product.productDescription}
                     </Typography>
-                    {` - Product Type: ${product.productType}, Category: ${product.category}, Sub-category: ${product.subcategory}`}
+                    {` - Product Type: ${product.productType}, Theme: ${product.theme}, Category: ${product.category}, Sub-category: ${product.subcategory}`}
                   </React.Fragment>
                 }
               />
