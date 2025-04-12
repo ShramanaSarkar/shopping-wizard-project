@@ -1,6 +1,5 @@
 ## Redesign the Shop onboarding wizard
 
-* Cloudnix is looking to design a new onboarding page for onboarding users
 * The primary color would be orange, turquoise, or blue
 * Technologies to be used are HTML5, CSS3, Jquery & Bootstrap
 * The page should be optimized. Use Google pagespeed to test
